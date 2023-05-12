@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 text_image = np.zeros((100,560),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(text_image," Shavedha Y ",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(text_image,"SITHI HAJARA I ",(5,70),font,2,(255),5,cv2.LINE_AA)
 # cv2.imshow("nameimg",text_image)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
